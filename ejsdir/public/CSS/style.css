@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    margin: auto;
+    width: 56%;
+}
+.header{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header img{
+    height: 40px;
+}
+
+#linebrake{
+    border-top: 1px solid rgb(192, 188, 188);
+}
+
+.container-1{
+    background-color: white;
+    width: 100%;
+    top: 0px;
+    position: sticky;
+}
+.header-right button:nth-child(2){
+    margin-left: 10px;
+    background-color: transparent;
+    color: blue;
+}
+
+.me-2{
+    width: 25%;
+    background-color: rgb(226, 222, 222);
+    /* border: none; */
+}
+
+.cont-2{
+    margin-top: 20px;
+    height: 200px;
+    display: flex;
+
+}
+
+.user-logo{
+    width: 35%;
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.user-content{
+    width: 50%;
+}
+.logo-img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 1px solid rgb(215, 213, 213);
+    background-image: url("https://static.vecteezy.com/system/resources/previews/010/353/285/non_2x/colourful-google-logo-on-white-background-free-vector.jpg");
+    background-size: cover;
+}
+
+.user-content-1{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.btn-custom{
+    outline: none;
+    border: none;
+    width: 80px;
+    font-size: .9rem;
+    height: 1.8rem;
+    border-radius: .3rem;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+.btn-custom:hover{
+    background-color: rgb(224, 214, 214);
+}
+
+.user-content-2{
+    margin-top: 10px;
+}
+
+
+.user-content-3 h6{
+    line-height: 0.7;
+}
+
+.user-content-3 h6:nth-child(2){
+    font-weight: 400;
+    color: rgb(198, 197, 197);
+}
+
+.user-content-3 h6:nth-child(3){
+    font-weight: 400;
+}
+
+.circle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.highlights{
+    margin: 45px;
+    display: flex;
+}
+.highlight-1{
+    margin-left: 60px;
+}
+
+.highlight-1 p{
+    margin-top: 5px;
+    margin-left: 10px;
+}
